@@ -123,6 +123,7 @@
             Controls.Add(dataGridViewCategories);
             Name = "MainForm";
             Text = "Categories and Products";
+            Load += MainForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewCategories).EndInit();
             ((System.ComponentModel.ISupportInitialize)categoryBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewProducts).EndInit();

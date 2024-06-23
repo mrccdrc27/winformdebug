@@ -64,5 +64,10 @@ namespace WinFormsApp6
 
             MessageBox.Show("Changes saved!");
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
